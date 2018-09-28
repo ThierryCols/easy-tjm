@@ -20,6 +20,9 @@ let make = _children => {
   render: self =>
     <div className="App">
       <h1> {ReasonReact.string("Easy TJM")} </h1>
+      <div className="btn-subtitles">
+        <h3> {ReasonReact.string("I want a...")} </h3>
+      </div>
       <div className="btn-container">
         {
           ReasonReact.array(

@@ -16,7 +16,17 @@ body {
   margin: 1em 0em;
 }
 
+.btn-subtitles {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 30%;
+}
+.btn-subtitles > h3 {
+  font-size: 20px;
+}
 .btn-container {
+  margin: 1em 0;
   display: flex;
   width: 70%;
   justify-content: space-between;
