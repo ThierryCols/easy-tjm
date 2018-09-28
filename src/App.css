@@ -19,8 +19,7 @@ body {
 .btn-subtitles {
   display: flex;
   align-items: flex-start;
-  width: 100%;
-  margin-left: 30%;
+  width: 70%;
 }
 .btn-subtitles > h3 {
   font-size: 20px;
@@ -52,4 +51,14 @@ body {
 }
 .btn-label {
   font-size: 14px;
+}
+
+.members-table {
+  margin: 1em 0;
+  width: 40%;
+}
+.members-table th,
+.members-table td {
+  font-size: 22px;
+  margin-top: 10px;
 }
